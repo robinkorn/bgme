@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bachelor_arbeit"
+version = "1.0.0"
+description = "Bachelors project: Boosted Gaussian Mixture Ensembles (BGME) and GMM."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Robin Korn" }]
+license = { text = "MIT License" }
+
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scikit-learn",
+  "PyQt5",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

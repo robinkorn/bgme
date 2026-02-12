@@ -1,0 +1,14 @@
+# Environment and local package
+.venv
+bachelor_arbeit.egg-info
+
+__pycache__/
+.vscode
+
+# dataset
+data/*
+
+# plots and results
+*.png
+*.json
+*.txt
