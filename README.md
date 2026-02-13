@@ -31,9 +31,10 @@ Enthält alle datenbezogenen Dateien. Das ServerMachineDataset sollte hier unter
 
 - **src/**
 Beinhaltet den gesamten Quellcode und die Projektlogik.
-
-- **tex/**
-Enthält alle LaTeX-Dateien für die Bachelorarbeit und die finale PDF-Datei.
+*src/data* enthählt Analyse- und Ladeskripte
+*src/eval* enthählt die Skripte für die Evaluation, Plots und F1 Scores
+*src/models* enthählt das BGME mit Basisklasse und Online-Addon
+*src/sim* enthählt den Datensimulator
 
 Einige Ordner könnten zusätzlich von Skripten erstellt werden um Ergebnisse abzuspeichern.
 
